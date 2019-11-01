@@ -9,10 +9,10 @@ import { AuthService } from '../auth/auth.service';
 @Injectable({ providedIn: 'root' })
 export class DataStorageService {
   constructor(
-    private http: HttpClient, 
+    private http: HttpClient,
     private recipeService: RecipeService,
     private authService: AuthService
-    ) {}
+  ) {}
 
   storeRecipes() {
     const recipes = this.recipeService.getRecipes();
@@ -26,12 +26,12 @@ export class DataStorageService {
       });
   }
 
-  fetchRecipes() {   
-      return this.http
+  fetchRecipes() {
+    return this.http
       .get<Recipe[]>(
-        'https://angular8-ng-course-recipe-book.firebaseio.com/recipes.json'       
+        'https://angular8-ng-course-recipe-book.firebaseio.com/recipes.json'   
       )
-      .pipe(    
+      .pipe(
         map(recipes => {
           return recipes.map(recipe => {
             return {
