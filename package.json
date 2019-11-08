@@ -21,7 +21,7 @@
     "@angular/router": "^8.0.0",
     "@ngrx/effects": "^8.4.0",
     "@ngrx/store": "^8.4.0",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "caniuse-lite": "^1.0.30001006",
     "core-js": "^3.1.2",
     "rxjs": "^6.0.0",
