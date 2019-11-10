@@ -13,5 +13,3 @@ export class RecipeStartComponent implements OnInit {
   }
 
 }
-
-

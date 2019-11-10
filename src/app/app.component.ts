@@ -21,3 +21,4 @@ export class AppComponent implements OnInit {
     this.loggingService.printLog('Hello from AppComponent ngOnInit');
   }
 }
+
