@@ -22,7 +22,7 @@
     "@ngrx/effects": "^8.4.0",
     "@ngrx/router-store": "^8.5.0",
     "@ngrx/store": "^8.4.0",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "caniuse-lite": "^1.0.30001006",
     "core-js": "^3.1.2",
     "rxjs": "^6.0.0",
